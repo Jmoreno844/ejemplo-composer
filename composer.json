@@ -1,0 +1,20 @@
+{
+    "name": "juan/ejemplo-composer",
+    "description": "prueba",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Juan\\EjemploComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Abaunza",
+            "email": "cabaunza@unab.edu.co"
+        }
+    ],
+    "require-dev": {
+        "kint-php/kint": "^5.0"
+    }
+}
